@@ -141,7 +141,7 @@ const App = () => {
           <table className="table">
             <thead>
               <tr>
-                <th>#</th>
+                {/* <th>#</th> */}
                 <th>Name</th>
                 <th>Email</th>
                 <th>Age</th>
@@ -153,7 +153,7 @@ const App = () => {
               {users &&
                 users.map((user, key) => (
                   <tr key={key}>
-                    <td>{user._id}</td>
+                    {/* <td>{user._id}</td> */}
                     <td>{user.name}</td>
                     <td>{user.email}</td>
                     <td>{user.age} Year's</td>
